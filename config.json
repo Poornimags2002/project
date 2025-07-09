@@ -1,0 +1,30 @@
+{
+    "charts": [
+      {
+        "chart_type": "pie",
+        "title": "Device Type Distribution",
+        "column": "Type"
+      },
+      {
+        "chart_type": "bar",
+        "title": "Installations per Location",
+        "column": "Installation Location"
+      },
+      {
+        "chart_type": "pie",
+        "title": "Fuel Sensor vs Non-Fuel Devices",
+        "column": "FUEL SENSOR NUMBER",
+        "value_mapping": {
+          "digit": "Yes",
+          "other": "No"
+        },
+        "new_column": "Has Fuel Sensor"
+      },
+      {
+        "chart_type": "histogram",
+        "title": "Installations Over Time",
+        "column": "Installation Date"
+      }
+    ]
+  }
+  

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Device Installation Dashboard</title>
+    <meta charset="UTF-8">
+</head>
+<body style="font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px;">
+    <h1>GPS & Fuel Sensor Installation Dashboard</h1>
+    {% for chart in charts %}
+        <div style="margin-bottom: 50px; background: white; padding: 20px; border-radius: 8px;">
+            {{ chart | safe }}
+        </div>
+    {% endfor %}
+</body>
+</html>
